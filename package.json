@@ -1,0 +1,27 @@
+{
+  "name": ""Princeton University Men's Volleyball Alumni Network,
+  "version": "1.0.0",
+  "description": "A web app, where current student athletes can connect with alumni in regards to career advice and direction.",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "pg": "6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bshabtai/PUVMAlumniNetwork"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
