@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
+  <!--<% include ../partials/header.ejs %> -->
+  <!-- dependencies (jquery, handlebars and bootstrap) -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.0/handlebars.min.js"></script>
+  <link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <!-- alpaca -->
+  <link type="text/css" href="//code.cloudcms.com/alpaca/1.5.23/bootstrap/alpaca.min.css" rel="stylesheet"/>
+  <script type="text/javascript" src="//code.cloudcms.com/alpaca/1.5.23/bootstrap/alpaca.min.js"></script>
 </head>
 
 <body>
 
+<!--
 <div class="jumbotron text-center">
   <div class="container">
     <h1>This is a random page</h1>
     <p>This is just a random web page.\n Making a change to verify papertrail addon.</p>
   </div>
 </div>
-
+-->
+<div id="form1"></div>
+<script type="text/javascript">
+$("#form1").alpaca({
+    "schema": {
+        "title": "What do you think of Alpaca?",
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "Name"
+            },
+            "ranking": {
+                "type": "string",
+                "title": "Ranking",
+                "enum": ['excellent', 'not too shabby', 'alpaca built my hotrod']
+            }
+        }
+    }
+});
+</script>
+<!--
 <div class="container">
   <div class="alert alert-info text-center" role="alert">
     This is some random text.
@@ -36,12 +67,12 @@
         <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
       </ul>
     </div>
-  </div> <!-- row -->
+  </div> <--><!-- row --><!--
    <div class="alert alert-info text-center" role="alert">
        Some random text to end the page.
   </div>
 </div>
-
+-->
 
 </body>
 </html>
