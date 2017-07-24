@@ -1,0 +1,35 @@
+Personal Info
+    First Name, 
+    Middle Initial
+    Last name
+    Nickname
+    Class year
+    Sport (men/woman)
+    Position
+    Photo?
+    Favorite volleyball memory
+
+Contact Info
+    email
+    phone number
+    website
+
+Academic Info
+    Princeton Major
+    Certificates?
+    Further Education
+
+Career Info
+    Current Company
+    Industry
+
+Possibilities
+    Looking for interns
+    Looking for full time
+    General career advice
+    Resume Review
+    Interview Process advice
+
+Permissioning
+    Show my profile to others
+    Available to mentor
